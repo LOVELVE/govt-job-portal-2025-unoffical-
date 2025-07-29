@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏛️ Complete Government Job Portal 2025</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="India's most comprehensive government job portal with 3000+ sources. Latest Sarkari Naukri updates.">
+    <meta name="keywords" content="government jobs, sarkari naukri, railway jobs, banking jobs, SSC, UPSC">
+    
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2196F3">
+    
+    <!-- External Libraries -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/themes.css">
+</head>
+<body data-theme="light">
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">🔄 Loading Government Portal...</div>
+        <div class="loading-progress">
+            <div class="loading-progress-bar" id="loadingProgressBar"></div>
+        </div>
+        <div id="loadingStatus">Initializing 3000+ sources...</div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div class="toast" id="toast"></div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay" onclick="closeSidebar()"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>🏛️ Complete Government Job Portal 2025</h1>
+        <p class="header-subtitle">India का Most Advanced Government Job Portal</p>
+        
+        <div class="live-stats">
+            <div class="stat-badge">
+                <i class="fas fa-database"></i>
+                <span id="sourceCount">3,247</span> Live Sources
+            </div>
+            <div class="stat-badge">
+                <i class="fas fa-briefcase"></i>
+                <span id="jobCount">1,25,847</span> Active Jobs
+            </div>
+            <div class="stat-badge">
+                <i class="fas fa-sync-alt"></i>
+                Real-time Updates
+            </div>
+            <div class="stat-badge">
+                <i class="fas fa-mobile-alt"></i>
+                Mobile Ready
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <i class="fas fa-moon" id="themeIcon"></i>
+                <span id="themeText">Dark Mode</span>
+            </button>
+            <button class="lang-toggle" onclick="toggleLanguage()">
+                <i class="fas fa-language"></i>
+                <span id="langText">English</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Toolbar -->
+        <div class="toolbar">
+            <button class="btn btn-primary" onclick="toggleSidebar()">
+                <i class="fas fa-sitemap"></i> सभी विभाग (3,247)
+            </button>
+            <button class="btn btn-success" onclick="exportToPDF()">
+                <i class="fas fa-file-pdf"></i> PDF Export
+            </button>
+            <button class="btn btn-warning" onclick="printJobs()">
+                <i class="fas fa-print"></i> Print
+            </button>
+            <button class="btn btn-danger" onclick="downloadSourceCode()">
+                <i class="fas fa-download"></i> Source Code
+            </button>
+            <button class="btn btn-accent" onclick="exportToExcel()">
+                <i class="fas fa-file-excel"></i> Excel Export
+            </button>
+            <button class="btn btn-primary" onclick="refreshData()" id="refreshBtn">
+                <i class="fas fa-sync-alt"></i> <span id="refreshText">Refresh</span>
+            </button>
+        </div>
+
+        <!-- Filters Section -->
+        <div class="filters-section">
+            <h3 class="filters-title">
+                <i class="fas fa-filter"></i> Smart Filters & Search
+            </h3>
+            
+            <div class="filters-grid">
+                <div class="filter-group">
+                    <label><i class="fas fa-graduation-cap"></i> योग्यता:</label>
+                    <select id="qualificationFilter" onchange="applyFilters()">
+                        <option value="">सभी योग्यता</option>
+                        <option value="10th">10वीं पास</option>
+                        <option value="12th">12वीं पास</option>
+                        <option value="graduate">स्नातक</option>
+                        <option value="postgraduate">परास्नातक</option>
+                        <option value="btech">B.Tech</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label><i class="fas fa-map-marker-alt"></i> राज्य:</label>
+                    <select id="stateFilter" onchange="applyFilters()">
+                        <option value="">सभी राज्य</option>
+                        <option value="all-india">All India</option>
+                        <option value="bihar">बिहार</option>
+                        <option value="up">उत्तर प्रदेश</option>
+                        <option value="maharashtra">महाराष्ट्र</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label><i class="fas fa-search"></i> Search:</label>
+                    <input type="text" id="searchInput" placeholder="Job title, organization..." onkeyup="applyFilters()">
+                </div>
+            </div>
+        </div>
+
+        <!-- Job Counter -->
+        <div class="job-counter" id="jobCounter">
+            🔄 Loading latest government jobs...
+        </div>
+
+        <!-- Job Grid -->
+        <div class="job-grid" id="jobGrid"></div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2><i class="fas fa-sitemap"></i> सरकारी विभाग</h2>
+            <button onclick="closeSidebar()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-content" id="sidebarContent"></div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="assets/js/utils.js"></script>
+    <script src="assets/js/departments.js"></script>
+    <script src="assets/js/filters.js"></script>
+    <script src="assets/js/export.js"></script>
+    <script src="assets/js/app.js"></script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+</html>
