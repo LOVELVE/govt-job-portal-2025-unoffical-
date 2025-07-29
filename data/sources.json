@@ -1,0 +1,246 @@
+{
+  "sources": {
+    "central_ministries": {
+      "name": "केंद्रीय मंत्रालय",
+      "icon": "🏛️",
+      "count": 53,
+      "items": [
+        {
+          "id": "min_01",
+          "name": "कृषि और किसान कल्याण मंत्रालय",
+          "url": "https://agricoop.nic.in",
+          "careerUrl": "https://agricoop.nic.in/careers",
+          "status": "working",
+          "lastChecked": "2025-07-29T15:00:00.000Z",
+          "jobsFound": 45,
+          "categories": ["agriculture", "farming", "rural-development"]
+        },
+        {
+          "id": "min_02", 
+          "name": "आयुष मंत्रालय",
+          "url": "https://ayush.gov.in",
+          "careerUrl": "https://ayush.gov.in/careers",
+          "status": "working",
+          "lastChecked": "2025-07-29T15:05:00.000Z",
+          "jobsFound": 23,
+          "categories": ["ayurveda", "yoga", "unani", "homeopathy"]
+        },
+        {
+          "id": "min_03",
+          "name": "रसायन और उर्वरक मंत्रालय", 
+          "url": "https://chemicals.gov.in",
+          "careerUrl": "https://chemicals.gov.in/careers",
+          "status": "working",
+          "lastChecked": "2025-07-29T15:10:00.000Z",
+          "jobsFound": 67,
+          "categories": ["chemicals", "fertilizers", "petrochemicals"]
+        },
+        {
+          "id": "min_04",
+          "name": "नागरिक उड्डयन मंत्रालय",
+          "url": "https://civilaviation.gov.in", 
+          "careerUrl": "https://civilaviation.gov.in/careers",
+          "status": "working",
+          "lastChecked": "2025-07-29T15:15:00.000Z",
+          "jobsFound": 89,
+          "categories": ["aviation", "airports", "airlines"]
+        },
+        {
+          "id": "min_05",
+          "name": "रक्षा मंत्रालय",
+          "url": "https://mod.gov.in",
+          "careerUrl": "https://mod.gov.in/careers", 
+          "status": "working",
+          "lastChecked": "2025-07-29T15:20:00.000Z",
+          "jobsFound": 234,
+          "categories": ["defense", "army", "navy", "air-force"]
+        }
+      ]
+    },
+    "bihar_government": {
+      "name": "बिहार सरकार",
+      "icon": "🏢", 
+      "count": 32,
+      "items": [
+        {
+          "id": "bihar_01",
+          "name": "कृषि विभाग",
+          "url": "https://state.bihar.gov.in/agriculture",
+          "careerUrl": "https://state.bihar.gov.in/agriculture/careers",
+          "status": "working",
+          "lastChecked": "2025-07-29T14:30:00.000Z",
+          "jobsFound": 56,
+          "categories": ["agriculture", "farming", "bihar"]
+        },
+        {
+          "id": "bihar_02",
+          "name": "स्वास्थ्य विभाग",
+          "url": "https://state.bihar.gov.in/health",
+          "careerUrl": "https://state.bihar.gov.in/health/careers", 
+          "status": "working",
+          "lastChecked": "2025-07-29T14:35:00.000Z",
+          "jobsFound": 123,
+          "categories": ["health", "medical", "bihar"]
+        },
+        {
+          "id": "bihar_03", 
+          "name": "शिक्षा विभाग",
+          "url": "https://state.bihar.gov.in/education",
+          "careerUrl": "https://state.bihar.gov.in/education/careers",
+          "status": "working", 
+          "lastChecked": "2025-07-29T14:40:00.000Z",
+          "jobsFound": 89,
+          "categories": ["education", "teaching", "bihar"]
+        }
+      ]
+    },
+    "railway": {
+      "name": "Railway",
+      "icon": "🚂",
+      "count": 38,
+      "items": [
+        {
+          "id": "rrb_01",
+          "name": "RRB Patna", 
+          "url": "https://rrbpatna.gov.in",
+          "careerUrl": "https://rrbpatna.gov.in/careers",
+          "status": "working",
+          "lastChecked": "2025-07-29T16:00:00.000Z",
+          "jobsFound": 156,
+          "categories": ["railway", "group-d", "ntpc", "je"]
+        },
+        {
+          "id": "rrb_02",
+          "name": "RRB Mumbai",
+          "url": "https://rrbmumbai.gov.in", 
+          "careerUrl": "https://rrbmumbai.gov.in/careers",
+          "status": "working",
+          "lastChecked": "2025-07-29T16:05:00.000Z",
+          "jobsFound": 234,
+          "categories": ["railway", "group-d", "ntpc", "je"]
+        },
+        {
+          "id": "railway_01",
+          "name": "Eastern Railway",
+          "url": "https://er.indianrailways.gov.in",
+          "careerUrl": "https://er.indianrailways.gov.in/careers",
+          "status": "working",
+          "lastChecked": "2025-07-29T16:10:00.000Z", 
+          "jobsFound": 78,
+          "categories": ["railway", "eastern", "recruitment"]
+        }
+      ]
+    },
+    "banking": {
+      "name": "Banking",
+      "icon": "🏦",
+      "count": 65,
+      "items": [
+        {
+          "id": "bank_01",
+          "name": "State Bank of India",
+          "url": "https://sbi.co.in/careers",
+          "careerUrl": "https://sbi.co.in/careers",
+          "status": "working",
+          "lastChecked": "2025-07-29T17:00:00.000Z",
+          "jobsFound": 345,
+          "categories": ["banking", "sbi", "po", "clerk"]
+        },
+        {
+          "id": "bank_02", 
+          "name": "IBPS",
+          "url": "https://ibps.in",
+          "careerUrl": "https://ibps.in/notifications",
+          "status": "working",
+          "lastChecked": "2025-07-29T17:05:00.000Z",
+          "jobsFound": 456,
+          "categories": ["banking", "ibps", "po", "clerk", "so"]
+        },
+        {
+          "id": "bank_03",
+          "name": "Reserve Bank of India",
+          "url": "https://rbi.org.in/careers", 
+          "careerUrl": "https://rbi.org.in/careers",
+          "status": "working",
+          "lastChecked": "2025-07-29T17:10:00.000Z",
+          "jobsFound": 123,
+          "categories": ["banking", "rbi", "assistant", "grade-b"]
+        }
+      ]
+    },
+    "psu_companies": {
+      "name": "PSU Companies",
+      "icon": "🏭",
+      "count": 52,
+      "items": [
+        {
+          "id": "psu_01",
+          "name": "Bharat Heavy Electricals Limited",
+          "url": "https://bhel.com/careers",
+          "careerUrl": "https://bhel.com/careers",
+          "status": "working",
+          "lastChecked": "2025-07-29T18:00:00.000Z",
+          "jobsFound": 89,
+          "categories": ["psu", "engineering", "electrical"]
+        },
+        {
+          "id": "psu_02",
+          "name": "Oil and Natural Gas Corporation", 
+          "url": "https://ongcindia.com/careers",
+          "careerUrl": "https://ongcindia.com/careers",
+          "status": "working",
+          "lastChecked": "2025-07-29T18:05:00.000Z",
+          "jobsFound": 167,
+          "categories": ["psu", "oil", "gas", "engineering"]
+        }
+      ]
+    },
+    "defense": {
+      "name": "Defense Services",
+      "icon": "🛡️", 
+      "count": 15,
+      "items": [
+        {
+          "id": "def_01",
+          "name": "Indian Army",
+          "url": "https://joinindianarmy.nic.in",
+          "careerUrl": "https://joinindianarmy.nic.in",
+          "status": "working",
+          "lastChecked": "2025-07-29T19:00:00.000Z",
+          "jobsFound": 234,
+          "categories": ["defense", "army", "officer", "jco"]
+        },
+        {
+          "id": "def_02",
+          "name": "Indian Navy",
+          "url": "https://nausena-bharti.nic.in", 
+          "careerUrl": "https://nausena-bharti.nic.in",
+          "status": "working",
+          "lastChecked": "2025-07-29T19:05:00.000Z",
+          "jobsFound": 156,
+          "categories": ["defense", "navy", "officer", "sailor"]
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "totalSources": 255,
+    "workingSources": 242,
+    "brokenSources": 13,
+    "lastUpdated": "2025-07-29T19:30:00.000Z",
+    "version": "1.0.0",
+    "updateFrequency": "Every 10 minutes",
+    "categories": [
+      "central-government",
+      "state-government", 
+      "railway",
+      "banking",
+      "psu",
+      "defense",
+      "medical",
+      "education"
+    ],
+    "totalJobsFound": 3245,
+    "averageResponseTime": "1.2 seconds"
+  }
+}

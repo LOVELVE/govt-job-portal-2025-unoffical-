@@ -1,0 +1,249 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "BPSC Assistant Engineer (Electrical) - 1,024 Posts",
+      "organization": "Bihar Public Service Commission",
+      "qualification": "btech",
+      "state": "bihar",
+      "mode": "online",
+      "category": "engineering",
+      "lastDate": "2025-08-10",
+      "salary": "₹44,900 - ₹1,42,400",
+      "fee": "₹750 (Gen/OBC), ₹200 (SC/ST/Female)",
+      "link": "https://bpsc.bih.nic.in",
+      "urgent": true,
+      "status": "working",
+      "description": "Civil Engineering posts with excellent career prospects and growth opportunities",
+      "location": "Patna, Bihar",
+      "ageLimit": "21-40 years",
+      "source": "BPSC Official",
+      "fetchedAt": "2025-07-29T15:30:00.000Z",
+      "posts": 1024,
+      "applicationStartDate": "2025-07-15",
+      "examDate": "2025-09-15",
+      "resultDate": "2025-11-30",
+      "tags": ["engineering", "electrical", "bihar", "assistant-engineer"],
+      "requirements": {
+        "education": "B.Tech in Electrical Engineering from recognized university",
+        "experience": "Fresh graduates can apply",
+        "age": "21-40 years",
+        "nationality": "Indian citizen"
+      },
+      "selectionProcess": [
+        "Written Examination",
+        "Document Verification",
+        "Final Merit List"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "SSC CHSL - 2,500 Posts",
+      "organization": "Staff Selection Commission",
+      "qualification": "12th",
+      "state": "all-india",
+      "mode": "online",
+      "category": "clerical",
+      "lastDate": "2025-08-15",
+      "salary": "₹19,900 - ₹63,200",
+      "fee": "₹100 (Gen/OBC), NIL (SC/ST/Female)",
+      "link": "https://ssc.nic.in",
+      "urgent": false,
+      "status": "working",
+      "description": "Lower Division Clerk, Data Entry Operator, Court Clerk posts across central government departments",
+      "location": "All India",
+      "ageLimit": "18-27 years",
+      "source": "SSC Official",
+      "fetchedAt": "2025-07-29T14:45:00.000Z",
+      "posts": 2500,
+      "applicationStartDate": "2025-07-20",
+      "examDate": "2025-10-05",
+      "resultDate": "2025-12-15",
+      "tags": ["ssc", "chsl", "clerk", "data-entry", "12th-pass"],
+      "requirements": {
+        "education": "12th pass from recognized board",
+        "experience": "No experience required",
+        "age": "18-27 years (Age relaxation as per government rules)",
+        "nationality": "Indian citizen"
+      },
+      "selectionProcess": [
+        "Computer Based Examination (Tier-I)",
+        "Computer Based Examination (Tier-II)",
+        "Skill Test/Typing Test",
+        "Document Verification"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "RRB Group D - 1,03,769 Posts",
+      "organization": "Railway Recruitment Board",
+      "qualification": "10th",
+      "state": "all-india",
+      "mode": "online",
+      "category": "railway",
+      "lastDate": "2025-08-20",
+      "salary": "₹18,000 - ₹22,000",
+      "fee": "₹500 (Gen/OBC), ₹250 (SC/ST)",
+      "link": "https://rrbapply.gov.in",
+      "urgent": false,
+      "status": "working",
+      "description": "Track Maintainer, Helper, Porter, Gateman posts across all Railway zones with job security",
+      "location": "All Railway Zones",
+      "ageLimit": "18-33 years",
+      "source": "RRB Official",
+      "fetchedAt": "2025-07-29T16:20:00.000Z",
+      "posts": 103769,
+      "applicationStartDate": "2025-07-25",
+      "examDate": "2025-11-10",
+      "resultDate": "2026-01-20",
+      "tags": ["railway", "group-d", "track-maintainer", "helper", "10th-pass"],
+      "requirements": {
+        "education": "10th pass or ITI from recognized institute",
+        "experience": "No experience required",
+        "age": "18-33 years (Age relaxation as per railway rules)",
+        "nationality": "Indian citizen"
+      },
+      "selectionProcess": [
+        "Computer Based Test (CBT)",
+        "Physical Efficiency Test (PET)",
+        "Document Verification",
+        "Medical Examination"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "IBPS PO - 5,208 Posts",
+      "organization": "Institute of Banking Personnel Selection",
+      "qualification": "graduate",
+      "state": "all-india",
+      "mode": "online",
+      "category": "banking",
+      "lastDate": "2025-07-28",
+      "salary": "₹23,700 - ₹42,020",
+      "fee": "₹850 (Gen/OBC), ₹175 (SC/ST/Female)",
+      "link": "https://ibps.in",
+      "urgent": true,
+      "status": "working",
+      "description": "Probationary Officer in Public Sector Banks with excellent career growth and perks",
+      "location": "All India",
+      "ageLimit": "20-30 years",
+      "source": "IBPS Official",
+      "fetchedAt": "2025-07-29T13:15:00.000Z",
+      "posts": 5208,
+      "applicationStartDate": "2025-07-10",
+      "examDate": "2025-09-20",
+      "resultDate": "2025-11-10",
+      "tags": ["banking", "ibps", "po", "probationary-officer", "graduate"],
+      "requirements": {
+        "education": "Graduate in any discipline from recognized university",
+        "experience": "Fresh graduates can apply",
+        "age": "20-30 years (Age relaxation as per rules)",
+        "nationality": "Indian citizen"
+      },
+      "selectionProcess": [
+        "Preliminary Examination",
+        "Main Examination",
+        "Interview",
+        "Document Verification"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "UPSC Civil Services Examination - 180 Posts",
+      "organization": "Union Public Service Commission",
+      "qualification": "graduate",
+      "state": "all-india",
+      "mode": "online",
+      "category": "civil-services",
+      "lastDate": "2025-08-05",
+      "salary": "₹56,100 - ₹2,50,000",
+      "fee": "₹100 (Gen), NIL (SC/ST/Female)",
+      "link": "https://upsc.gov.in",
+      "urgent": true,
+      "status": "working",
+      "description": "IAS, IPS, IFS and other central services - the most prestigious government jobs in India",
+      "location": "All India",
+      "ageLimit": "21-32 years",
+      "source": "UPSC Official",
+      "fetchedAt": "2025-07-29T12:00:00.000Z",
+      "posts": 180,
+      "applicationStartDate": "2025-07-01",
+      "examDate": "2025-10-15",
+      "resultDate": "2026-05-30",
+      "tags": ["upsc", "civil-services", "ias", "ips", "ifs"],
+      "requirements": {
+        "education": "Graduate degree from recognized university",
+        "experience": "No experience required",
+        "age": "21-32 years (Age relaxation for reserved categories)",
+        "nationality": "Indian citizen"
+      },
+      "selectionProcess": [
+        "Preliminary Examination",
+        "Main Written Examination",
+        "Personality Test (Interview)",
+        "Medical Examination"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "AIIMS Patna Nursing Officer - 3,500 Posts",
+      "organization": "All India Institute of Medical Sciences",
+      "qualification": "graduate",
+      "state": "bihar",
+      "mode": "online",
+      "category": "medical",
+      "lastDate": "2025-08-11",
+      "salary": "₹25,500 - ₹81,100",
+      "fee": "₹3,000 (Gen/OBC), ₹2,000 (SC/ST/Female)",
+      "link": "https://aiimspatna.edu.in",
+      "urgent": false,
+      "status": "working",
+      "description": "Staff Nurse Grade-II posts with excellent work environment and career growth in medical field",
+      "location": "Patna, Bihar",
+      "ageLimit": "21-30 years",
+      "source": "AIIMS Official",
+      "fetchedAt": "2025-07-29T17:30:00.000Z",
+      "posts": 3500,
+      "applicationStartDate": "2025-07-18",
+      "examDate": "2025-09-25",
+      "resultDate": "2025-12-05",
+      "tags": ["medical", "nursing", "aiims", "staff-nurse", "healthcare"],
+      "requirements": {
+        "education": "B.Sc Nursing from recognized nursing college",
+        "experience": "Fresh graduates can apply",
+        "age": "21-30 years",
+        "nationality": "Indian citizen",
+        "other": "Must be registered with Nursing Council"
+      },
+      "selectionProcess": [
+        "Computer Based Test (CBT)",
+        "Document Verification",
+        "Medical Examination"
+      ]
+    }
+  ],
+  "metadata": {
+    "totalJobs": 6,
+    "lastUpdated": "2025-07-29T17:30:00.000Z",
+    "version": "1.0.0",
+    "source": "Government Job Portal 2025",
+    "categories": [
+      "engineering",
+      "clerical", 
+      "railway",
+      "banking",
+      "civil-services",
+      "medical"
+    ],
+    "states": [
+      "all-india",
+      "bihar"
+    ],
+    "qualifications": [
+      "10th",
+      "12th", 
+      "graduate",
+      "btech"
+    ]
+  }
+}
