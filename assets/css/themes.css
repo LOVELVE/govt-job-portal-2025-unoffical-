@@ -1,0 +1,194 @@
+/* Dark Theme Styles */
+[data-theme="dark"] {
+    --white: #1e1e1e;
+    --light-color: #2d2d2d;
+    --dark-color: #ffffff;
+    --shadow: 0 4px 20px rgba(255,255,255,0.05);
+    --shadow-hover: 0 8px 30px rgba(255,255,255,0.1);
+}
+
+[data-theme="dark"] body {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    color: white;
+}
+
+[data-theme="dark"] .header {
+    background: rgba(30, 30, 30, 0.95);
+    color: white;
+}
+
+[data-theme="dark"] .header-subtitle {
+    color: #ccc;
+}
+
+[data-theme="dark"] .toolbar {
+    background: rgba(30, 30, 30, 0.95);
+}
+
+[data-theme="dark"] .filters-section {
+    background: rgba(30, 30, 30, 0.95);
+    color: white;
+}
+
+[data-theme="dark"] .filter-group label {
+    color: white;
+}
+
+[data-theme="dark"] .filter-group select,
+[data-theme="dark"] .filter-group input {
+    background: #2d2d2d;
+    color: white;
+    border-color: #555;
+}
+
+[data-theme="dark"] .filter-group select:focus,
+[data-theme="dark"] .filter-group input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 15px rgba(33, 150, 243, 0.3);
+}
+
+[data-theme="dark"] .sidebar {
+    background: rgba(30, 30, 30, 0.98);
+    color: white;
+}
+
+[data-theme="dark"] .dept-category {
+    background: rgba(45, 45, 45, 0.9);
+}
+
+[data-theme="dark"] .dept-link {
+    color: white;
+}
+
+[data-theme="dark"] .job-card {
+    background: rgba(30, 30, 30, 0.98);
+    color: white;
+}
+
+[data-theme="dark"] .job-card.urgent {
+    background: linear-gradient(135deg, rgba(244, 67, 54, 0.1) 0%, rgba(30, 30, 30, 0.98) 100%);
+}
+
+[data-theme="dark"] .job-title {
+    color: white;
+}
+
+[data-theme="dark"] .job-detail {
+    border-bottom-color: rgba(255,255,255,0.1);
+}
+
+[data-theme="dark"] .job-detail strong {
+    color: white;
+}
+
+/* Theme Toggle Animation */
+.theme-transition,
+.theme-transition *,
+.theme-transition *:before,
+.theme-transition *:after {
+    transition: all 0.3s !important;
+    transition-delay: 0 !important;
+}
+
+/* Custom Scrollbar for Dark Theme */
+[data-theme="dark"] ::-webkit-scrollbar {
+    width: 8px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-track {
+    background: #2d2d2d;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+/* Light Theme Scrollbar */
+[data-theme="light"] ::-webkit-scrollbar {
+    width: 8px;
+}
+
+[data-theme="light"] ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+[data-theme="light"] ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+[data-theme="light"] ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Theme-specific Button Styles */
+[data-theme="dark"] .theme-toggle {
+    background: #4CAF50;
+    color: white;
+}
+
+[data-theme="light"] .theme-toggle {
+    background: #333;
+    color: white;
+}
+
+/* Selection Colors */
+[data-theme="dark"] ::selection {
+    background: var(--primary-color);
+    color: white;
+}
+
+[data-theme="light"] ::selection {
+    background: var(--primary-color);
+    color: white;
+}
+
+/* Focus Indicators */
+[data-theme="dark"] button:focus,
+[data-theme="dark"] select:focus,
+[data-theme="dark"] input:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+[data-theme="light"] button:focus,
+[data-theme="light"] select:focus,
+[data-theme="light"] input:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* High Contrast Theme Support */
+@media (prefers-contrast: high) {
+    [data-theme="dark"] {
+        --primary-color: #66B3FF;
+        --secondary-color: #66FF66;
+        --danger-color: #FF6666;
+        --warning-color: #FFCC66;
+    }
+    
+    [data-theme="light"] {
+        --primary-color: #0066CC;
+        --secondary-color: #006600;
+        --danger-color: #CC0000;
+        --warning-color: #CC6600;
+    }
+}
+
+/* System Theme Preference */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --default-theme: "dark";
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --default-theme: "light";
+    }
+}

@@ -1,0 +1,215 @@
+/* Mobile First Responsive Design */
+
+/* Extra Small Devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .header-subtitle {
+        font-size: 1rem;
+    }
+    
+    .live-stats {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .stat-badge {
+        width: 100%;
+        max-width: 250px;
+        justify-content: center;
+    }
+    
+    .toolbar {
+        flex-direction: column;
+        margin: 10px;
+        gap: 10px;
+    }
+    
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .filters-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .job-grid {
+        grid-template-columns: 1fr;
+        margin: 15px 10px;
+        gap: 15px;
+    }
+    
+    .job-card {
+        padding: 20px;
+    }
+    
+    .job-title {
+        font-size: 1.2rem;
+        padding-right: 0;
+    }
+    
+    .job-actions {
+        flex-direction: column;
+    }
+    
+    .job-actions .btn {
+        flex: none;
+        width: 100%;
+    }
+    
+    .sidebar {
+        width: 100%;
+        left: -100%;
+    }
+    
+    .sidebar-header {
+        padding: 20px;
+    }
+    
+    .sidebar-content {
+        padding: 20px;
+    }
+    
+    .dept-category {
+        padding: 15px;
+    }
+    
+    .container {
+        padding: 0 10px;
+    }
+}
+
+/* Small Devices (portrait tablets and large phones, 600px to 768px) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+    
+    .live-stats {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .toolbar {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .filters-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .job-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .sidebar {
+        width: 80%;
+        left: -80%;
+    }
+}
+
+/* Medium Devices (landscape tablets, 768px to 992px) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .job-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .filters-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .sidebar {
+        width: 60%;
+        left: -60%;
+    }
+}
+
+/* Large Devices (laptops/desktops, 992px to 1200px) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .job-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .filters-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Extra Large Devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .job-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .filters-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Touch Devices */
+@media (hover: none) and (pointer: coarse) {
+    .btn {
+        min-height: 44px;
+        min-width: 44px;
+    }
+    
+    .filter-group select,
+    .filter-group input {
+        min-height: 44px;
+    }
+    
+    .dept-link {
+        min-height: 44px;
+        align-items: center;
+    }
+    
+    .job-actions .btn {
+        min-height: 48px;
+    }
+}
+
+/* Landscape Orientation */
+@media screen and (orientation: landscape) and (max-height: 600px) {
+    .header {
+        padding: 15px;
+    }
+    
+    .header h1 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+    
+    .live-stats {
+        margin: 10px 0;
+    }
+    
+    .stat-badge {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Print Responsive */
+@media print {
+    .header {
+        position: static;
+        box-shadow: none;
+        border-bottom: 2px solid #333;
+    }
+    
+    .job-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .job-card {
+        page-break-inside: avoid;
+        margin-bottom: 20px;
+    }
+}
